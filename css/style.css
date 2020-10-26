@@ -281,6 +281,7 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
+    background-blend-mode: color-dodge;
     color: var(--clr-light);
     text-align: center;
 }
