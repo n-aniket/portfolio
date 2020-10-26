@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aniket Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body id="home">
+        <header>
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">My skillset</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Aniket Naik</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">back-end dev</p>
+            <img src="img/JPEG_20190919_222626.jpg" alt="a picture" class="intro__img">
+        </section>
+        
+        
+        <!-- My skills -->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title section__title--services">My skillset</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Web development tech</h3>
+                    <pre>HTML     CSS     JS</pre>
+                </div> <!-- / service -->
+                
+                <div class="skill">
+                    <h3>Backend tech</h3>
+                    <pre>Node.js</pre>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My projects</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">A Goan web developer</p>
+           
+           <div class="about-me__body">
+               <p>I am results oriented, constantly checking in with the goal to determine how close or how far away we are and what it will take to make it happen. 
+                  I find this pressure inspiring and a great motivator for the rest of the team. 
+               </p>
+            </div>
+            <img src="img/Photo_Aniket.jpg" alt="img" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My projects</h2>
+            <!-- <p class="section__subtitle section__subtitle--work">A selection of my range of work</p> -->
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="spotify-project.html" class="portfolio__item" >
+                    <img src="img/spotify_project.png" alt="" class="portfolio__img">
+                </a>         
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:naikaniket88@gmail.com" class="footer__link" target="_blank">naikaniket88@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/naik_aniket08" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/n-aniket" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/naik-aniket/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/a_naik" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
